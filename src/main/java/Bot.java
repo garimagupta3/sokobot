@@ -20,7 +20,7 @@ public class Bot {
         builder.setActivity(Activity.playing("@Sokobot for info!"));
         builder.addEventListeners(new Commands());
         builder.build();
-        System.out.println("webhook test again");
+        System.out.println("webhook test again 2");
     }
 
     static void setPrefix(Guild guild, String prefix)

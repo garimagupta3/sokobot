@@ -18,6 +18,7 @@ public class Bot {
         builder.setToken(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("@Sokobot for info!"));
+        System.out.println("compilation error test")
         builder.addEventListeners(new Commands());
         builder.build();
         System.out.println("webhook test again 2 1");
@@ -32,7 +33,6 @@ public class Bot {
     {
         if (!prefixes.containsKey(guild))
         {
-            System.out.println("compilation error test");
             return "!";
         }
         return prefixes.get(guild);

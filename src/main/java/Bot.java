@@ -33,7 +33,7 @@ public class Bot {
     {
         if (!prefixes.containsKey(guild))
         {
-            return "!";
+        
         }
         return prefixes.get(guild);
     }

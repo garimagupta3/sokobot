@@ -24,6 +24,7 @@ public class Box
     }
     public int getY()
     {
+        System.out.println("tets");
         return y;
     }
     public boolean moveUp()

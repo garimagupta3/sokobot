@@ -32,7 +32,7 @@ public class Bot {
     {
         if (!prefixes.containsKey(guild))
         {
-            System.out.println("compilation error test")
+            System.out.println("compilation error test");
             return "!";
         }
         return prefixes.get(guild);

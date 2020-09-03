@@ -28,7 +28,7 @@ public class Box
         System.out.println("tets");
         System.out.println("tets");
         System.out.println("tets");
-        System.out.println("tets");
+        System.out.println("test");
         return y;
     }
     public boolean moveUp()

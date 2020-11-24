@@ -18,7 +18,7 @@ public class Bot {
         builder.setToken(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("@Sokobot for info!"));
-        System.out.println("compilation error test");
+        System.out.println("compilation error test!");
         builder.addEventListeners(new Commands());
         builder.build();
         System.out.println("webhook test again 2 1 1 2");

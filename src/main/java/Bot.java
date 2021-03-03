@@ -21,7 +21,6 @@ public class Bot {
         System.out.println("compilation error test! check! 2 3");
         builder.addEventListeners(new Commands());
         builder.build();
-        System.out.println("webhook test again 2 1 1 2 44");
     }
 
     static void setPrefix(Guild guild, String prefix)

@@ -18,10 +18,10 @@ public class Bot {
         builder.setToken(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("@Sokobot for info!"));
-        System.out.println("compilation error test! check! 2 3");
-        System.out.println("compilation error test! check! 2 3 4");
+        System.out.println("compilation error test! check! 2");
         builder.addEventListeners(new Commands());
         builder.build();
+        System.out.println("webhook test again 2 1 1 2");
     }
 
     static void setPrefix(Guild guild, String prefix)
